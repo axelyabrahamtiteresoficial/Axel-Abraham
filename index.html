@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TV Axel 📺</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0a0f2c;
+      color: white;
+    }
+    header {
+      background: linear-gradient(90deg, #1e90ff, #00c3ff);
+      padding: 15px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      gap: 15px;
+      padding: 15px;
+    }
+    .tv {
+      background: black;
+      border-radius: 15px;
+      padding: 10px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    }
+    .tv iframe {
+      width: 100%;
+      height: 360px;
+      border-radius: 10px;
+      border: none;
+    }
+    .tv-placeholder {
+      width: 100%;
+      height: 360px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #111;
+      border-radius: 10px;
+      font-size: 18px;
+      color: #aaa;
+      text-align: center;
+    }
+    .schedule {
+      background: #121212;
+      border-radius: 15px;
+      padding: 10px;
+    }
+    .schedule h2 {
+      text-align: center;
+      margin-top: 0;
+    }
+    .program {
+      background: #1f1f1f;
+      margin: 8px 0;
+      padding: 8px;
+      border-radius: 10px;
+      font-size: 14px;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      font-size: 12px;
+      background: #050818;
+    }
+    a {
+      color: #00c3ff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>📺 TV AXEL – El Monstruo Azul</header>
+
+  <div class="container">
+
+    <!-- TV -->
+    <div class="tv">
+      <!-- CUANDO TENGAS VIDEOS, REEMPLAZA ESTO POR EL IFRAME DE YOUTUBE -->
+      <div class="tv-placeholder">
+        Próximamente 📡<br>
+        Axel aparecerá en pantalla muy pronto
+      </div>
+      <!--
+      EJEMPLO DE IFRAME (NO BORRAR, SOLO ACTIVAR CUANDO TENGAS VIDEO):
+      <iframe src="https://www.youtube.com/embed/ID_DEL_VIDEO?autoplay=1&mute=1"></iframe>
+      -->
+    </div>
+
+    <!-- PROGRAMACIÓN -->
+    <div class="schedule">
+      <h2>📅 Programación</h2>
+      <div class="program">🕘 9:00 AM – Aventuras de Axel (Episodio 1)</div>
+      <div class="program">🕚 11:00 AM – Axel y sus Amigos</div>
+      <div class="program">🕒 3:00 PM – Especial de Títeres</div>
+      <div class="program">🕖 7:00 PM – Repetición</div>
+      <p style="font-size:12px; text-align:center;">(Programación de ejemplo)</p>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2025 TV Axel | Hecho gratis con ❤️ | <a href="#">Canal de YouTube (próximamente)</a>
+  </footer>
+
+</body>
+</html>
